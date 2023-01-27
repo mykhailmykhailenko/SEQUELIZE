@@ -5,4 +5,4 @@ CREATE TABLE users(
     email varchar(200) UNIQUE NOT NULL
 );
 
-DELETE TABLE users;
+DROP TABLE users;
